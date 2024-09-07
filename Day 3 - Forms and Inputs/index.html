@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 3</title>
+    <style>
+      .outside-container {
+        width: 800px;
+        margin: auto;
+        background-color: brown;
+        padding: 30px 50px 50px;
+      }
+      .inside-container {
+        width: 600px;
+        margin: auto;
+        background-color: aqua;
+        padding: 30px 50px 50px;
+      }
+      .form-container {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+        background-color: white;
+        padding: 20px;
+      }
+      input,
+      button {
+        display: block;
+        width: 93%;
+        margin: 10px 0;
+        padding: 8px;
+      }
+      button {
+        width: 100%;
+        cursor: pointer;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        font-size: 16px;
+        border-radius: 0.5rem;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outside-container">
+      <div class="inside-container">
+        <div class="form-container">
+          <h1><strong>Login Form</strong></h1>
+          <form action="#">
+            <label class="label" for="">Login To Your Account</label>
+            <input type="text" placeholder="username" />
+            <input type="password" placeholder="password" />
+            <button type="button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
