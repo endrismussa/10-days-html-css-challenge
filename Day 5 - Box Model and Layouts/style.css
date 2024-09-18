@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  border: 0;
+  font-size: 60px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  color: brown;
+}
+.box-one {
+  background-color: aquamarine;
+  border: 20px solid wheat;
+  margin: 40px;
+  padding: 30px;
+}
+.box-two {
+  background-color: aquamarine;
+  border: 20px solid wheat;
+  margin: 40px;
+  padding: 30px;
+}
