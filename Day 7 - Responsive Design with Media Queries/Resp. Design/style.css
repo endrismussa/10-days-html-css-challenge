@@ -1,0 +1,52 @@
+.h1 {
+  text-align: center;
+}
+.div-1 {
+  display: flex;
+  justify-content: space-between;
+}
+.blue-1,
+.blue-2 {
+  background-color: blue;
+  padding: 1px;
+  margin: 5px;
+  width: 50%;
+}
+.yellow {
+  background-color: rgb(131, 131, 23);
+  height: 200px;
+  width: calc(100%-5px);
+  margin: 5px;
+}
+.div-3 {
+  display: flex;
+  justify-content: space-between;
+}
+.green-1,
+.green-2,
+.green-3 {
+  background-color: green;
+  padding: 1px;
+  margin: 5px;
+  width: 33%;
+}
+@media (max-width: 700px) {
+  .div-1 {
+    display: block;
+  }
+  .blue-1,
+  .blue-2 {
+    width: 100%;
+  }
+  .yellow {
+    width: 100%;
+  }
+  .div-3 {
+    display: block;
+  }
+  .green-1,
+  .green-2,
+  .green-3 {
+    width: 100%;
+  }
+}
